@@ -1,5 +1,18 @@
-body {
+html, body {
   background-color: #42c5f4;
   font-family: "Muli", "Helvetica", sans-serif;
   color: white;
+  height: 100%;
+}
+
+.parent {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.child {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
