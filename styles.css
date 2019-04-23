@@ -2,17 +2,24 @@ html, body {
   background-color: #42c5f4;
   font-family: "Muli", "Helvetica", sans-serif;
   color: white;
-  height: 100%;
 }
 
 .parent {
-  display: table;
-  height: 100%;
-  width: 100%;
+  text-align: center;
 }
 
-.child {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+.code-block {
+  font-family: monospace;
+  /* display: table-cell; */
+  position: absolute;
+  background-color: #1c1e9e;
+  color: white;
+  height: 550px;
+  width: 90%;
+  border-radius: 4px;
+  left: 5%;
+}
+
+p {
+  padding-left: 15px;
 }
