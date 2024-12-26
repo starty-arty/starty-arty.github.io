@@ -1,0 +1,36 @@
+{
+  "1": [
+    {
+      "pant": "1",
+      "office": true,
+      "baher": false,
+      "chimni": true
+    },
+    {
+      "pant": "2",
+      "office": true,
+      "baher": true,
+      "chimni": false
+    },
+    {
+      "pant": "3",
+      "office": false,
+      "baher": false,
+      "chimni": true
+    }
+  ],
+  "2": [
+    {
+      "pant": "1",
+      "office": true,
+      "baher": true,
+      "chimni": true
+    },
+    {
+      "pant": "4",
+      "office": false,
+      "baher": false,
+      "chimni": false
+    }
+  ]
+}
