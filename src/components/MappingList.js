@@ -1,22 +1,21 @@
 import React from "react";
-import data from "../data.json";
+import mappings from "../data/mappings.json";
 import Mapping from "./Mapping";
 
 function MappingList({ shirtID }) {
-  let mappings = [];
-  for (let mapping of data[shirtID])
-    mappings.push(
+  let mappingList = [];
+  for (let mapping of mappings[shirtID])
+    mappingList.push(
       <Mapping
         shirtID={shirtID}
         pantID={mapping.pantID}
         okayForOffice={mapping.okayForOffice}
         okayForBaher={mapping.okayForBaher}
-        okayForChimni={mapping.okayForChimni}
         key={mapping.pantID}
       />
     );
 
-  return <div>{mappings}</div>;
+  return <div>{mappingList}</div>;
 }
 
 export default MappingList;

@@ -1,13 +1,7 @@
 import React from "react";
 import ClothingItem from "./ClothingItem";
 
-function Mapping({
-  shirtID,
-  pantID,
-  okayForOffice,
-  okayForBaher,
-  okayForChimni,
-}) {
+function Mapping({ shirtID, pantID, okayForOffice, okayForBaher }) {
   return (
     <div>
       <ClothingItem type="shirt" id={shirtID} />
@@ -16,8 +10,6 @@ function Mapping({
         Office: {getEmoji(okayForOffice)}
         <br />
         Baher: {getEmoji(okayForBaher)}
-        <br />
-        Chimni: {getEmoji(okayForChimni)}
       </p>
     </div>
   );

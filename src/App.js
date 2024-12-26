@@ -2,11 +2,11 @@ import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import ShirtGrid from "./components/ShirtGrid";
 import MappingList from "./components/MappingList";
-import data from "./data.json";
+import mappings from "./data/mappings.json";
 
 function App() {
   let shirtMappingRoutes = [];
-  for (let shirtID of Object.keys(data))
+  for (let shirtID of Object.keys(mappings))
     shirtMappingRoutes.push(
       <Route
         path={`/${shirtID}`}
