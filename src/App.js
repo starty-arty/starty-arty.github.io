@@ -8,7 +8,11 @@ function App() {
   let shirtMappingRoutes = [];
   for (let shirtID of Object.keys(data))
     shirtMappingRoutes.push(
-      <Route path={`/${shirtID}`} element={<MappingList shirtID={shirtID} />} />
+      <Route
+        path={`/${shirtID}`}
+        element={<MappingList shirtID={shirtID} />}
+        key={shirtID}
+      />
     );
 
   return (

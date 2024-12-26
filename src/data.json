@@ -1,36 +1,36 @@
 {
   "1": [
     {
-      "pant": "1",
-      "office": true,
-      "baher": false,
-      "chimni": true
+      "pantID": "1",
+      "okayForOffice": true,
+      "okayForBaher": false,
+      "okayForChimni": true
     },
     {
-      "pant": "2",
-      "office": true,
-      "baher": true,
-      "chimni": false
+      "pantID": "2",
+      "okayForOffice": true,
+      "okayForBaher": true,
+      "okayForChimni": false
     },
     {
-      "pant": "3",
-      "office": false,
-      "baher": false,
-      "chimni": true
+      "pantID": "3",
+      "okayForOffice": false,
+      "okayForBaher": false,
+      "okayForChimni": true
     }
   ],
   "2": [
     {
-      "pant": "1",
-      "office": true,
-      "baher": true,
-      "chimni": true
+      "pantID": "1",
+      "okayForOffice": true,
+      "okayForBaher": true,
+      "okayForChimni": true
     },
     {
-      "pant": "4",
-      "office": false,
-      "baher": false,
-      "chimni": false
+      "pantID": "2",
+      "okayForOffice": false,
+      "okayForBaher": false,
+      "okayForChimni": false
     }
   ]
 }
