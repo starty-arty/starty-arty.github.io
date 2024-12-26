@@ -5,7 +5,7 @@ function ClothingItem({ type, id }) {
   let imageTag = <img src={image} />;
 
   if (type === "shirt") {
-    return <a href={`./${id}`}>{imageTag}</a>;
+    return <a href={`./#/${id}`}>{imageTag}</a>;
   }
   return imageTag;
 }
